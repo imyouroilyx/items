@@ -3,7 +3,7 @@
 .item-container {
     display: flex;
     flex-flow: row wrap; /* บังคับเรียงแนวนอน ถ้าล้นให้ปัดลง */
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 10px;
     width: 100%;
     box-sizing: border-box;
