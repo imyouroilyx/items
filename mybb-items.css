@@ -2,18 +2,18 @@
 
 .item-container {
     display: flex;
-    flex-flow: row wrap; /* บังคับเรียงแนวนอน ถ้าล้นให้ปัดลง */
-    justify-content: space-around;
-    gap: 10px;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 25px;
     width: 100%;
     box-sizing: border-box;
 }
 
 .item-box {
-    flex: 1 0 22%; /* ให้ขยายเต็มที่แต่ไม่เกิน 22-23% ต่อกล่อง */
+    flex: 1 0 22%;
     min-width: 150px;
-    max-width: 24%; /* กันไม่ให้กล่องใหญ่เกินไป */
-    background: rgba(7,8,16,0.8);
+    max-width: 30%;
+    background: rgba(7, 8, 16, 0.8);
     box-shadow: 0 0 10px black;
     border: 1px solid #b9ab7b;
     color: #FDE7BB;
@@ -23,8 +23,8 @@
 }
 
 .item-header {
-    background: url('https://i.imgur.com/MOLP0vV.jpg') center/cover;
-    padding: 10px;
+    background: url(https://i.imgur.com/MOLP0vV.jpg) center / cover;
+    padding: 15px;
     color: #FFCC66;
     border-bottom: 1px solid #b9ab7b;
     text-shadow: 0 2px 5px black;
