@@ -30,7 +30,7 @@
     text-shadow: 0 2px 5px black;
     font-weight: bold;
     text-align: center;
-    font-size: 14pt;
+    font-size: 16pt;
 }
 
 .item-body {
@@ -47,6 +47,7 @@
 }
 
 .text-desc {
+    border-top: 15px;
     text-align: left;
-    font-size: 13pt;
+    font-size: 14pt;
 }
