@@ -29,7 +29,8 @@
     border-bottom: 1px solid #b9ab7b;
     text-shadow: 0 2px 5px black;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
+    font-size: 14pt;
 }
 
 .item-body {
@@ -42,7 +43,6 @@
 .item-img {
     width: 100%;
     height: auto;
-    border: 1px solid #555;
     margin-bottom: 10px;
     display: block;
 }
