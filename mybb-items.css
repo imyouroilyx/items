@@ -49,8 +49,9 @@
 }
 
 .text-desc {
-    border-top: 15px;
+    border-top: 1px solid;
     text-align: center;
     font-size: 11pt;
     line-height: 1.4;
+    margin-top: 20px;
 }
